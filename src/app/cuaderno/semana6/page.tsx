@@ -165,6 +165,14 @@ function Formulario() {
 			>
 				{temario[5].bibliografia}
 			</a>
+			<SubTituloTema>Ejercicio de práctica</SubTituloTema>
+			<a
+				href="https://thriving-marshmallow-80bf08.netlify.app/"
+				className="mb-5 hover:underline hover:text-amber-300"
+				target="_blank"
+			>
+				https://thriving-marshmallow-80bf08.netlify.app/
+			</a>
 		</div>
 	);
 };

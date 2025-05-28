@@ -135,12 +135,20 @@ const page = () => {
 			<SubTituloTema>Reflexión</SubTituloTema>
 			<p className="mb-5">{temario[3].reflexion}</p>
 			<SubTituloTema>Bibliografía</SubTituloTema>
-					<a
-						href={temario[3].bibliografia}
-						className="mb-5 hover:underline hover:text-amber-300"
-					>
-						{temario[3].bibliografia}
-					</a>
+			<a
+				href={temario[3].bibliografia}
+				className="mb-5 hover:underline hover:text-amber-300"
+			>
+				{temario[3].bibliografia}
+			</a>
+			<SubTituloTema>Ejercicios de práctica</SubTituloTema>
+			<a
+				href="https://drive.google.com/drive/folders/18Ha06pWUqVaSfM69jpCFIiOoNTyeVsSt"
+				className="mb-5 hover:underline hover:text-amber-300"
+				target="_blank"
+			>
+				https://drive.google.com/drive/folders/18Ha06pWUqVaSfM69jpCFIiOoNTyeVsSt
+			</a>
 		</div>
 	);
 };

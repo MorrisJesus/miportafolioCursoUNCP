@@ -158,12 +158,20 @@ console.log(persona.saludar());`}
 			<SubTituloTema>Reflexión</SubTituloTema>
 			<p className="mb-5">{temario[4].reflexion}</p>
 			<SubTituloTema>Bibliografía</SubTituloTema>
-					<a
-						href={temario[4].bibliografia}
-						className="mb-5 hover:underline hover:text-amber-300"
-					>
-						{temario[4].bibliografia}
-					</a>
+			<a
+				href={temario[4].bibliografia}
+				className="mb-5 hover:underline hover:text-amber-300"
+			>
+				{temario[4].bibliografia}
+			</a>
+			<SubTituloTema>Ejercicios de práctica</SubTituloTema>
+			<a
+				href="https://github.com/MorrisJesus/PRACTICA-CALIFICADA-3ATENCIOFLORESVARGAS"
+				className="mb-5 hover:underline hover:text-amber-300"
+				target="_blank"
+			>
+				https://github.com/MorrisJesus/PRACTICA-CALIFICADA-3ATENCIOFLORESVARGAS
+			</a>
 		</div>
 	);
 };

@@ -100,12 +100,21 @@ const page = () => {
 			<SubTituloTema>Reflexión</SubTituloTema>
 			<p className="mb-5">{temario[1].reflexion}</p>
 			<SubTituloTema>Bibliografía</SubTituloTema>
-					<a
-						href={temario[1].bibliografia}
-						className="mb-5 hover:underline hover:text-amber-300"
-					>
-						{temario[1].bibliografia}
-					</a>
+			<a
+				href={temario[1].bibliografia}
+				className="mb-5 hover:underline hover:text-amber-300"
+				target="_blank"
+			>
+				{temario[1].bibliografia}
+			</a>
+			<SubTituloTema>Ejercicios de práctica</SubTituloTema>
+			<a
+				href="https://github.com/MorrisJesus/PRACTICA-HTML-Y-CSS"
+				className="mb-5 hover:underline hover:text-amber-300"
+				target="_blank"
+			>
+				https://github.com/MorrisJesus/PRACTICA-HTML-Y-CSS
+			</a>
 		</div>
 	);
 };
