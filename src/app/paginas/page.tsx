@@ -4,8 +4,8 @@ import Link from "next/link";
 export default function Home() {
 	return (
 		<>
-			{/* <div className="flex justify-between gap-20 items-center">
-				<div className="space-y-10 px-20 bg-slate-800 p-10 rounded-2xl">
+			<div className="flex justify-between gap-20 items-center">
+				<div className="space-y-10 px-20 bg-slate-800 p-10 rounded-2xl ">
 					<h1 className="text-white text-2xl text-center uppercase">
 						Bienvenido (a)
 					</h1>
@@ -37,6 +37,12 @@ export default function Home() {
 							className=" uppercase font-bold max-lg:min-w-max px-3 py-1 lg:py-2 rounded-md text-left text-sm transition-colors text-black bg-amber-400"
 						>
 							Proyectos
+						</Link>
+						<Link
+							href="/paginas/cuaderno"
+							className=" uppercase font-bold max-lg:min-w-max px-3 py-1 lg:py-2 rounded-md text-left text-sm transition-colors text-black bg-amber-400"
+						>
+							Cuaderno
 						</Link>
 						<Link
 							href="/paginas/contacto"
@@ -73,7 +79,7 @@ export default function Home() {
 									src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
 									alt="logo"
 									fill
-									className="object-cover rounded-sm"
+									className="object-cover rounded-sm "
 								/>
 							</div>
 							WhatsApp
@@ -103,12 +109,12 @@ export default function Home() {
 								src="/foto.jpg"
 								alt="foto"
 								fill
-								className="object-cover rounded-sm"
+								className="object-cover rounded-sm transform transition-transform duration-300 hover:scale-110"
 							/>
 						</div>
 					</div>
 				</div>
-			</div> */}
+			</div>
 		</>
 	);
 }
