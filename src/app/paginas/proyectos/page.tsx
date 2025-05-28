@@ -11,7 +11,7 @@ export default function Home() {
 				<div className="bg-slate-800 p-10 rounded-2xl">
 					<h2 className="text-white  text-start uppercase font-bold">
 						Sistema Administrativo de Gestión para Clínica Dental "Estética
-						Oral"
+						Oral" Huancayo 2025
 					</h2>
 					<ul className="text-white text-justify">
 						<li>Tecnologías: Next.js, NestJS, PostgreSQL </li>
