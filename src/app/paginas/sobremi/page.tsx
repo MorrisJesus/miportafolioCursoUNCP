@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Home() {
 	return (
 		<>
-			<div className="space-y-10 px-20 w-3/4 mx-auto">
+			<div className="space-y-10 px-20 w-3/4 mx-auto max-md:w-full  ">
 				<h1 className="text-white text-2xl text-center uppercase font-bold">
 					SOBRE MI
 				</h1>
@@ -19,7 +19,7 @@ export default function Home() {
 						de sistemas web.
 					</p>
 				</div>
-				<div className="flex justify-center gap-20">
+				<div className="flex justify-center gap-20 max-md:flex-col max-md:gap-0">
 					<div className="">
 						<h2 className="text-white text-2xl uppercase font-bold mb-5 text-center">
 							🎓 Estudios
@@ -49,7 +49,7 @@ export default function Home() {
 						</div>
 					</div>
 				</div>
-				<h2 className="text-white text-2xl text-start uppercase font-bold">
+				<h2 className="text-white text-2xl text-start uppercase font-bold max-md:text-center">
 					💼 Experiencia
 				</h2>
 				<div className="bg-slate-800 p-10 rounded-2xl mb-5">

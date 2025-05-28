@@ -6,14 +6,14 @@ export default function Home() {
 			<h1 className="text-white text-2xl text-center uppercase font-bold">
 				CONTACTO
 			</h1>
-			<div className="flex justify-center gap-20 mx-auto my-20">
+			<div className="flex max-md:flex-col max-md:w-1/2 justify-center gap-20 mx-auto my-20">
 				<a
 					href="https://github.com/MorrisJesus"
 					target="_blank"
 					rel="noopener noreferrer"
 					className="uppercase font-bold max-lg:min-w-max px-3 py-1 lg:py-2 rounded-md text-center text-sm transition-colors text-black bg-white"
 				>
-					<div className="w-[100px] h-[100px] relative ">
+					<div className="w-[100px] h-[100px] relative mx-auto">
 						<Image
 							src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
 							alt="logo"
@@ -29,7 +29,7 @@ export default function Home() {
 					rel="noopener noreferrer"
 					className="uppercase font-bold max-lg:min-w-max px-3 py-1 lg:py-2 rounded-md text-center text-sm transition-colors text-black bg-white"
 				>
-					<div className="w-[100px] h-[100px] relative">
+					<div className="w-[100px] h-[100px] relative  mx-auto">
 						<Image
 							src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
 							alt="logo"
@@ -45,7 +45,7 @@ export default function Home() {
 					rel="noopener noreferrer"
 					className="uppercase font-bold max-lg:min-w-max px-3 py-1 lg:py-2 rounded-md text-center text-sm transition-colors text-black bg-white"
 				>
-					<div className="w-[100px] h-[100px] relative ">
+					<div className="w-[100px] h-[100px] relative  mx-auto">
 						<Image
 							src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
 							alt="logo"

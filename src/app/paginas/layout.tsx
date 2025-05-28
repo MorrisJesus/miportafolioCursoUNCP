@@ -14,7 +14,7 @@ export default function RootLayout({
 			>
 				<Header />
 				<div className="flex flex-col min-h-screen">
-					<div className="flex-grow px-10">{children}</div>
+					<div className="flex-grow px-10 max-md:px-2">{children}</div>
 
 					<Footer />
 				</div>

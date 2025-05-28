@@ -7,7 +7,7 @@ export default function Home() {
 			<h1 className="text-white text-2xl text-center uppercase font-bold mb-5">
 				Mi Cuaderno
 			</h1>
-			<div className="grid grid-cols-2 md:grid-cols-3 gap-12 p-4 ">
+			<div className="grid grid-cols-2 md:grid-cols-3 gap-12 p-4 max-md:grid-cols-1">
 				{temario.map((item) => (
 					<div key={item.semana} className="text-center bg-slate-800 p-5 rounded-2xl">
 						<a href={`/cuaderno/semana${item.semana}`} target="_blank">

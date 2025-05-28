@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Home() {
 	return (
 		<>
-			<div className="flex justify-between gap-20 items-center">
+			<div className="flex justify-between gap-20 items-center max-md:w-11/12 max-md:mx-auto max-md:gap-0">
 				<div className="space-y-10 px-20 bg-slate-800 p-10 rounded-2xl ">
 					<h1 className="text-white text-2xl text-center uppercase">
 						Bienvenido (a)
@@ -31,7 +31,7 @@ export default function Home() {
 					</p>
 					<h3 className="text-white my-0">Correo: jesusatencio8122@gmail.com</h3>
 					<h3 className="text-white">N° de Celular: 929989292</h3>
-					<div className="flex justify-center gap-20">
+					<div className="flex justify-center gap-20 max-md:flex-col max-md:w-1/2 max-md:mx-auto max-md:text-center max-md:gap-5 max-md:justify-center  max-md:items-center">
 						<Link
 							href="/paginas/proyectos"
 							className=" uppercase font-bold max-lg:min-w-max px-3 py-1 lg:py-2 rounded-md text-left text-sm transition-colors text-black bg-amber-400"
@@ -51,7 +51,7 @@ export default function Home() {
 							Contáctame
 						</Link>
 					</div>
-					<div className="flex justify-center gap-20 mx-auto ">
+					<div className="flex justify-center gap-20 mx-auto max-md:flex-col max-md:w-1/2 max-md:mx-auto max-md:text-center max-md:gap-5">
 						<a
 							href="https://github.com/MorrisJesus"
 							target="_blank"
