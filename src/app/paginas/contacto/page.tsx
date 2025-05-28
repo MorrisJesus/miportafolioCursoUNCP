@@ -40,7 +40,7 @@ export default function Home() {
 					WhatsApp
 				</a>
 				<a
-					href="https://www.aedin.com/in/morris-jesus-atencio-espiritu-0b9b8022b/"
+					href="https://www.linkedin.com/in/morris-jesus-atencio-espiritu-0b9b8022b/"
 					target="_blank"
 					rel="noopener noreferrer"
 					className="uppercase font-bold max-lg:min-w-max px-3 py-1 lg:py-2 rounded-md text-center text-sm transition-colors text-black bg-white"
