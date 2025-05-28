@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Home() {
 	return (
 		<>
-			<div className="space-y-10 px-20 w-3/4 mx-auto max-md:w-full">
+			<div className="space-y-10 px-20 w-3/4 mx-auto max-md:w-full max-md:px-5 ">
 				<h1 className="text-white text-2xl text-center uppercase font-bold">
 					PROYECTOS
 				</h1>
@@ -30,8 +30,8 @@ export default function Home() {
 				<h1 className="text-white text-2xl text-center uppercase font-bold">
 					Imágenes del Proyecto
 				</h1>
-				<div className="flex flex-col gap-10">
-					<div className="w-[800] h-[400] relative mx-auto">
+				<div className="flex flex-col gap-10 max-md:gap-2">
+					<div className="max-md:w-[300] max-md:h-[200] w-[800] h-[400] relative mx-auto">
 						<Image
 							src="/1.png"
 							alt="logo"
@@ -39,7 +39,7 @@ export default function Home() {
 							className="object-contain rounded-sm"
 						/>
 					</div>
-					<div className="w-[800] h-[400] relative mx-auto">
+					<div className="max-md:w-[300] max-md:h-[200] w-[800] h-[400] relative mx-auto">
 						<Image
 							src="/2.png"
 							alt="logo"

@@ -4,8 +4,8 @@ import Link from "next/link";
 export default function Home() {
 	return (
 		<>
-			<div className="flex justify-between gap-20 items-center max-md:w-11/12 max-md:mx-auto max-md:gap-0">
-				<div className="space-y-10 px-20 bg-slate-800 p-10 rounded-2xl ">
+			<div className="flex justify-between gap-20 items-center max-md:w-11/12 max-md:mx-auto max-md:gap-0 max-md:px-5">
+				<div className="space-y-10 px-20 bg-slate-800 p-10 rounded-2xl  max-md:px-5 ">
 					<h1 className="text-white text-2xl text-center uppercase">
 						Bienvenido (a)
 					</h1>

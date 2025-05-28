@@ -5,7 +5,7 @@ import React from "react";
 
 const page = () => {
 	return (
-		<div className="px-10 w-3/4 mx-auto text-white">
+		<div className="px-10 w-3/4 mx-auto text-white max-md:w-full">
 			<TituloTema>{temario[3].tema}</TituloTema>
 
 			<div className="mx-auto">
