@@ -7,43 +7,58 @@ export default function Home() {
 			<h1 className="text-white text-2xl text-center uppercase font-bold mb-5">
 				Mi Cuaderno
 			</h1>
-			<div className="grid grid-cols-2 md:grid-cols-3 gap-12 p-4 max-md:grid-cols-1">
+			<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 p-6">
 				{temario.map((item) => (
-					<div key={item.semana} className="text-center bg-slate-800 p-5 rounded-2xl">
-						<a href={`/cuaderno/semana${item.semana}`} target="_blank">
-							<div className="w-[300px] h-[200px] relative mx-auto transform transition-transform duration-300 hover:scale-110">
-								{/* Texto encima de la imagen */}
-								<div className="absolute inset-0 z-10 flex items-center justify-center bg-black/40 rounded">
-									<span className="text-white text-xl font-bold uppercase">
-										Semana {item.semana}
-									</span>
-								</div>
-								{/* Imagen */}
-								<Image
-									src="/libro.jpg"
-									alt={`Semana ${item.semana}`}
-									fill
-									className="object-cover rounded shadow-md cursor-pointer"
-								/>
+					<div
+						key={item.semana}
+						className="bg-slate-800 rounded-2xl shadow-lg overflow-hidden transition-transform duration-300 hover:scale-[1.01] border border-slate-700 hover:border-amber-400"
+					>
+						<a
+							href={`/cuaderno/semana${item.semana}`}
+							target="_blank"
+							rel="noopener noreferrer"
+							className="block relative h-[200px] w-full"
+						>
+							<div className="absolute inset-0 z-10 bg-black/40 flex items-center justify-center">
+								<span className="text-white text-xl font-bold uppercase">
+									Semana {item.semana}
+								</span>
 							</div>
+							<Image
+								src="/libro.jpg"
+								alt={`Semana ${item.semana}`}
+								fill
+								className="object-cover rounded-t-2xl"
+							/>
 						</a>
-						{/* Texto debajo */}
-						<p className="mt-2 font-semibold text-white uppercase">
-							{item.tema}
-						</p>
-            <h3 className="mt-2 font-semibold text-white text-left uppercase">Reflexión</h3>
-						<p className="mt-2 font-semibold text-white text-justify">
-							{item.reflexion}
-						</p>
-            <h3 className="mt-5 font-semibold text-white text-left uppercase">Bibliografia</h3>
-						<div className="mt-2">
-							<a
-								href={item.bibliografia}
-								className="hover:underline font-semibold text-amber-300 text-justify"
-								target="_blank"
-							>
-								{item.bibliografia}
-							</a>
+
+						<div className="p-5 flex flex-col gap-3">
+							<p className="text-amber-300 text-lg font-bold uppercase text-center">
+								{item.tema}
+							</p>
+
+							<div>
+								<h3 className="text-white text-sm font-bold uppercase mb-1">
+									Reflexión
+								</h3>
+								<p className="text-white text-sm text-justify leading-relaxed">
+									{item.reflexion}
+								</p>
+							</div>
+
+							<div>
+								<h3 className="text-white text-sm font-bold uppercase mt-3 mb-1">
+									Bibliografía
+								</h3>
+								<a
+									href={item.bibliografia}
+									target="_blank"
+									className="text-amber-300 hover:underline text-sm break-all"
+									rel="noopener noreferrer"
+								>
+									{item.bibliografia}
+								</a>
+							</div>
 						</div>
 					</div>
 				))}

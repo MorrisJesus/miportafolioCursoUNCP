@@ -16,17 +16,18 @@ const menuItems = [
 const Header = () => {
 	const pathname = usePathname();
 	return (
-		<nav className=" flex  gap-4  w-full  px-10 lg:rounded-tr-2xl justify-between items-center">
+		<nav className="w-full flex items-center justify-between gap-4 px-6 py-3  backdrop-blur-md shadow-md lg:rounded-tr-2xl">
 			<Titulo>MI PORTAFOLIO ELECTRÓNICO</Titulo>
-			<ul className="flex justify-between gap-2 py-1 max-md:overflow-x-auto max-md:whitespace-nowrap max-w-full">
+
+			<ul className="flex gap-3 max-md:overflow-x-auto max-md:whitespace-nowrap scrollbar-hide">
 				{menuItems.map((item) => (
-					<li key={item.href}>
+					<li key={item.href} className="flex-shrink-0">
 						<Link
 							href={item.href}
-							className={`inline-block lg:block uppercase font-bold max-lg:min-w-max px-3 py-1 lg:py-2 rounded-md text-left text-sm transition-colors ${
+							className={`inline-block px-4 py-2 rounded-md text-sm font-bold uppercase transition-colors duration-200 ${
 								pathname === item.href
-									? "bg-slate-600 text-white  max-sm:bg-black"
-									: "bg-white text-black hover:bg-slate-600 hover:text-white max-sm:hover:bg-black"
+									? "bg-slate-700 text-white"
+									: "bg-gray-100 text-black hover:bg-slate-600 hover:text-white"
 							}`}
 						>
 							{item.label}
