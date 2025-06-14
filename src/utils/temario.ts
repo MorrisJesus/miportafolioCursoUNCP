@@ -45,10 +45,8 @@ export const temario: SemanaTema[] = [
 			"Aprendí las diferencias entre Bootstrap y Tailwind. Tailwind me ayudó a diseñar con clases utilitarias mientras que Bootstrap me ofreció componentes listos para usar. Aprendí probando ambas en proyectos pequeños.",
 		bibliografia:
 			"https://tailwindcss.com/docs, https://getbootstrap.com/docs/",
-		libro_recomendado:
-			"'Refactoring UI' – Adam Wathan & Steve Schoger",
-		url_libro:
-			"https://refactoringui.com/book/",
+		libro_recomendado: "'Refactoring UI' – Adam Wathan & Steve Schoger",
+		url_libro: "https://refactoringui.com/book/",
 	},
 	{
 		semana: 5,
@@ -85,5 +83,15 @@ export const temario: SemanaTema[] = [
 		bibliografia: "https://spring.io/projects/spring-boot",
 		libro_recomendado: "'Spring Boot in Action' – Craig Walls",
 		url_libro: "https://www.manning.com/books/spring-boot-in-action",
+	},
+	{
+		semana: 10,
+		tema: "Autenticación con Java Spring Boot",
+		reflexion:
+			"Esta semana aprendí a implementar un sistema de autenticación seguro utilizando Spring Boot. Entendí el flujo completo de autenticación mediante JWT (JSON Web Tokens), incluyendo la validación de credenciales, generación de tokens y protección de rutas mediante filtros de seguridad. También profundicé en el uso de Spring Security para gestionar roles y permisos.",
+		bibliografia: "https://spring.io/projects/spring-boot",
+		libro_recomendado: "'Spring Boot Reference Documentation' – Phillip Webb",
+		url_libro:
+			"https://docs.spring.io/spring-boot/docs/3.2.7/reference/pdf/spring-boot-reference.pdf",
 	},
 ];
