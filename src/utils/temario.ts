@@ -94,4 +94,22 @@ export const temario: SemanaTema[] = [
 		url_libro:
 			"https://docs.spring.io/spring-boot/docs/3.2.7/reference/pdf/spring-boot-reference.pdf",
 	},
+	{
+		semana: 11,
+		tema: "JSP con Jakarta y Spring",
+		reflexion:
+			"Esta semana aprendí a desarrollar interfaces web utilizando JSP (JavaServer Pages) junto con Jakarta EE y Spring Framework. Comprendí cómo se integran las vistas JSP con los controladores de Spring MVC para renderizar contenido dinámico. Además, me familiaricé con el uso de Expression Language (EL), JSTL y el manejo de formularios para la interacción con el usuario desde el backend Java.",
+		bibliografia: "https://jakarta.ee/specifications/pages/",
+		libro_recomendado: "'Spring in Action' – Craig Walls",
+		url_libro: "https://www.manning.com/books/spring-in-action-sixth-edition",
+	},
+	{
+		semana: 12,
+		tema: "Desarrollo web con PHP y Laravel",
+		reflexion:
+			"Durante esta semana me enfoqué en aprender Laravel, un framework de PHP moderno y robusto para el desarrollo de aplicaciones web. Comprendí el patrón MVC (Modelo-Vista-Controlador), el enrutamiento, la migración de bases de datos y la creación de controladores y modelos. Laravel me permitió trabajar de manera eficiente con bases de datos, autenticación y estructuras RESTful, haciendo el desarrollo más estructurado y seguro.",
+		bibliografia: "https://laravel.com/docs/11.x",
+		libro_recomendado: "'Laravel: Up & Running' – Matt Stauffer",
+		url_libro: "https://laravelupandrunning.com/",
+	},
 ];
