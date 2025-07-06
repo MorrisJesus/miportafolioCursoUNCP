@@ -112,4 +112,14 @@ export const temario: SemanaTema[] = [
 		libro_recomendado: "'Laravel: Up & Running' – Matt Stauffer",
 		url_libro: "https://laravelupandrunning.com/",
 	},
+	{
+		semana: 13,
+		tema: "Laravel Intermedio: Eloquent, Middleware y API REST",
+		reflexion:
+			"Esta semana profundicé en aspectos intermedios de Laravel. Aprendí a utilizar Eloquent ORM de manera más avanzada, implementando relaciones entre modelos como uno a muchos, muchos a muchos y relaciones polimórficas. También trabajé con middleware para gestionar el acceso a rutas protegidas, y comencé a construir APIs RESTful utilizando recursos, controladores API y respuestas JSON. Laravel demostró su potencia y flexibilidad al facilitar la creación de servicios web limpios y mantenibles.",
+		bibliografia: "https://laravel.com/docs/11.x/eloquent",
+		libro_recomendado:
+			"'Laravel: Up & Running' – Matt Stauffer (Capítulos intermedios)",
+		url_libro: "https://laravelupandrunning.com/",
+	},
 ];
