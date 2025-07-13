@@ -122,4 +122,14 @@ export const temario: SemanaTema[] = [
 			"'Laravel: Up & Running' – Matt Stauffer (Capítulos intermedios)",
 		url_libro: "https://laravelupandrunning.com/",
 	},
+	{
+		semana: 14,
+		tema: "Flask Básico: Introducción, Rutas y Plantillas",
+		reflexion:
+			"Esta semana comencé a aprender Flask, un microframework de Python orientado al desarrollo web. Aprendí a crear aplicaciones básicas, definir rutas mediante funciones y retornar respuestas en distintos formatos. También trabajé con el sistema de plantillas Jinja2 para generar contenido HTML dinámico e incorporé formularios simples para manejar datos del usuario. Flask me pareció una herramienta muy intuitiva y flexible, ideal para comenzar en el desarrollo backend con Python y construir proyectos pequeños de forma rápida y ordenada.",
+		bibliografia: "https://flask.palletsprojects.com/en/3.0.x/quickstart/",
+		libro_recomendado:
+			"'Flask Web Development' – Miguel Grinberg (Capítulos iniciales)",
+		url_libro: "https://flaskbook.com/",
+	},
 ];
