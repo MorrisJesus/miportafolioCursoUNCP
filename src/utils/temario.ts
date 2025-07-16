@@ -132,4 +132,15 @@ export const temario: SemanaTema[] = [
 			"'Flask Web Development' – Miguel Grinberg (Capítulos iniciales)",
 		url_libro: "https://flaskbook.com/",
 	},
+	{
+		semana: 15,
+		tema: "Sistemas Inteligentes con Python y Flask",
+		reflexion:
+			"Esta semana exploré cómo integrar capacidades de inteligencia artificial dentro de aplicaciones web usando Python y Flask. Utilicé bibliotecas como scikit-learn y deepface para incorporar funcionalidades como clasificación automática, reconocimiento facial y predicciones en tiempo real. Flask sirvió como una capa ligera y eficiente para exponer modelos de IA a través de endpoints web, permitiendo enviar datos desde el frontend y recibir respuestas inteligentes. Me di cuenta de lo potente que puede ser combinar Flask con modelos entrenados para desarrollar soluciones interactivas e inteligentes en la web.",
+		bibliografia: "https://flask.palletsprojects.com/en/3.0.x/",
+		libro_recomendado:
+			"'Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow' – Aurélien Géron",
+		url_libro:
+			"https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/",
+	},
 ];
